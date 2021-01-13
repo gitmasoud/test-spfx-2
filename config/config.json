@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cars-wiki-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/carsWiki/CarsWikiWebPart.js",
+          "manifest": "./src/webparts/carsWiki/CarsWikiWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CarsWikiWebPartStrings": "lib/webparts/carsWiki/loc/{locale}.js"
+  }
+}
